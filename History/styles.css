@@ -1,0 +1,63 @@
+/* Set body margin and font-family */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the nav bar */
+.nav-bar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.link-item {
+    list-style-type: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Style the page title and brief summary */
+.Page-Title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Brief-Summary {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Style the image */
+.Img-of-Aghan {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.copywright {
+    margin: 0;
+}
