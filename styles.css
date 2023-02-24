@@ -1,72 +1,72 @@
-/* Set background image for the whole page */
 body {
-  background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=7zMHmxCW&id=FBE2087D265FE30CAE3977A897D61F3CB2C7B307&thid=OIP.7zMHmxCWWVPHtQ9Z-75g5QHaEo&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f3040547.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ef33079b10965953c7b50f59fbbe60e5%3frik%3dB7PHsjwf1peodw%26pid%3dImgRaw%26r%3d0&exph=1600&expw=2560&q=green+and+white+camo&simid=608046779934190040&FORM=IRPRST&ck=34754B205133B38F0BC6383DF1C1ACC2&selectedIndex=1');
+    background-image: url("https://i.imgur.com/f8pSZf6.png");
+    background-repeat: repeat;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-/* Style the navigation bar */
 .nav-bar {
-  background-image: url('https://th.bing.com/th/id/R.85b25e50e71badc8ae00a14a7568acc4?rik=uAASmcAvosiBcQ&riu=http%3a%2f%2fwww.pngpix.com%2fwp-content%2fuploads%2f2016%2f03%2fUSA-Grunge-Flag-PNG-Image.png&ehk=BmOlyqKVCD3w8hGCa%2f%2fpOpP%2fdDzraYDKLqztfznOCWM%3d&risl=&pid=ImgRaw&r=0');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 60px;
+    background-image: url("https://i.imgur.com/WMsTzD8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.nav-bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.nav-bar li {
-  float: left;
+.link-item {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .link {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
 }
 
 .link:hover {
-  background-color: #555;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Style the content section */
 .content {
-  margin: 20px;
-  padding: 20px;
-  background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: justify;
 }
 
 .Page-Title {
-  color: green;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 60px;
 }
 
 .Brief-Summary {
-  font-size: 18px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 30px;
 }
 
-/* Style the footer */
+.Img-of-Aghan {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
 footer {
-  background-color: green;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Style the copyright text */
-.copywrite {
-  font-size: 12px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
 }
