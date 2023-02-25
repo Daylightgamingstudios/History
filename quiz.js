@@ -11,7 +11,8 @@ const quizData = [
 ];
 
 // Function to check the user's answers
-function checkAnswers() {
+function checkAnswers(event) {
+  event.preventDefault(); // Prevent the form from submitting
   const form = document.getElementById("quiz-form");
   let score = 0;
 
@@ -24,4 +25,11 @@ function checkAnswers() {
 
   const feedback = document.getElementById("quiz-feedback");
   feedback.innerHTML = "You scored " + score + " out of " + quizData.length;
+  feedback.style.display = "block"; // Display the score
 }
+
+
+
+
+
+
