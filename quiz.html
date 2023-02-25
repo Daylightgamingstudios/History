@@ -35,7 +35,11 @@
   <br><br>
   <input type="submit" value="Submit" onclick="checkAnswers()">
 </form>
+<form id="quiz-form" onsubmit="checkAnswers(event)">
+  ...
+</form>
 
+<div id="quiz-feedback" style="display: none;"></div>
 <div id="quiz-feedback"></div>
     
     
