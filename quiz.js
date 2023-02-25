@@ -24,9 +24,10 @@ function checkAnswers(event) {
   }
 
   const feedback = document.getElementById("quiz-feedback");
+  feedback.style.visibility = "visible";
   feedback.innerHTML = "You scored " + score + " out of " + quizData.length;
-  feedback.style.display = "block"; // Display the score
 }
+
 
 
 
