@@ -1,6 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  
+  <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
+        <script src="quiz.js"></script>
   </head>
+  <body>
+  <nav class="nav-bar">
+            <ul>
+        <li class="link-item"><a href="home.html" class="link">Home</a></li>
+        <li class="link-item"><a href="history.html" class="link">Extra Knowledge about Afghanastan</a></li>
+    <li class="link-item"><a href="sources.html" class="link">Sources</a></li>
+                <li class="link-item"><a href="Aboutme.html" class="link">About Us</a></li>
+            </ul>
+        </nav>
+    
+    
+
+    <form id="quiz-form">
+  <h2>Quiz</h2>
+  <p>Question 1: What is the capital of Afghanistan?</p>
+  <input type="radio" name="q1" value="a"> Kabul<br>
+  <input type="radio" name="q1" value="b"> Kandahar<br>
+  <input type="radio" name="q1" value="c"> Herat<br>
+  
+  <p>Question 2: When did Afghanistan become independent?</p>
+  <input type="radio" name="q2" value="a"> 1919<br>
+  <input type="radio" name="q2" value="b"> 1947<br>
+  <input type="radio" name="q2" value="c"> 1963<br>
+  
+  <br><br>
+  <input type="submit" value="Submit" onclick="checkAnswers()">
+</form>
+
+<div id="quiz-feedback"></div>
+    
+    
+    
+    <footer>
+             <li class="link-item"><a href="home.html" class="link">Home</a></li>
+        <li class="link-item"><a href="home.html" class="link">Extra Knowledge about Afghanastan</a></li>
+    <li class="link-item"><a href="sources.html" class="link">Sources</a></li>
+                <li class="link-item"><a href="Aboutme.html" class="link">About Me</a></li>
+                <p1 class="copyright">This Site is a trademark of Siddharth Damodharan, Samuel McGarraugh, and Nathan Shinn</p1>
+            </footer>
+  </body>
 </html>
