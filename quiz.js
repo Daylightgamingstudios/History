@@ -8,6 +8,10 @@ const quizData = [
     question: "When did Afghanistan become independent?",
     answer: "a"
   }
+  {
+  question: "What was the Name of the Orginization that took over Afghanistans government?"
+  answer: "c"
+  }
 ];
 
 // Function to check the user's answers
@@ -26,6 +30,7 @@ function checkAnswers() {
   feedback.innerHTML = "You scored " + score + " out of " + quizData.length;
 }
 
+event.prevent.default()
 
 
 
