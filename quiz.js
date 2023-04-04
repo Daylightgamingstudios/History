@@ -34,6 +34,10 @@ function checkAnswers() {
 
 
 
+event.preventdefault();
+
+
+
 
 
 
