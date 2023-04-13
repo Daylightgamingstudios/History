@@ -3,9 +3,7 @@
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px;
+   
 }
 
 .product-container::-webkit-scrollbar{
