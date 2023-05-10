@@ -49,9 +49,9 @@ body {
     margin: 0 auto;
     padding: 40px;
     text-align: justify;
-    background-color: rgb(21, 39, 119);
-    opacity: 80%;
+    background-color: darkgreen;
     border-radius: 10px;
+    opacity: 90%;
 }
 
 .Page-Title {
