@@ -172,6 +172,8 @@ box-shadow: 0 0 0 4px #0c7ae0;
 }
 
 .article-txt{
+    color:#0000;
+    font-style: bold;
     background-color:rgb(97, 97, 97);
     padding: 15px;
     border-radius: 5px;
