@@ -97,6 +97,16 @@ footer {
     margin-bottom: none;
 }
 
+.background{
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 10px;
+    outline-style: inherit;
+    border: none;
+    box-shadow: 0 0 0 4px rgb(100, 100, 100);
+    
+}
+
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
@@ -144,7 +154,7 @@ box-shadow: 0 0 0 4px #0c7ae0;
     background-color: rgb(21, 39, 119);
     border-radius: 10px;
     outline-style:solid;
-    outline-color:whitesmoke;
+    outline-color: whitesmoke;
     margin-left: 3px;
     margin-right: 3px;
 }
@@ -153,6 +163,12 @@ box-shadow: 0 0 0 4px #0c7ae0;
     min-height: 60px;
     text-align: center;
     border-radius: 10px;
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    outline-style: inherit;
+    border: none;
+    box-shadow: 0 0 0 4px maroon;
 }
 
 .article-txt{
@@ -160,5 +176,11 @@ box-shadow: 0 0 0 4px #0c7ae0;
     padding: 15px;
     border-radius: 5px;
     font-size: 125%;
+    max-width: 90%;
+    margin: auto;
+    outline-style: inherit;
+    border: none;
+    box-shadow: 0 0 0 4px rgb(90, 90, 90);
+
 
 }
