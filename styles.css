@@ -38,8 +38,16 @@ box-shadow: 0 0 0 4px #0c7ae0;
 
 .link-item {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.link-img{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .link {
     display: block;
@@ -143,7 +151,12 @@ height:10%;
  width:5%;
  padding:none;
  position:absolute;
+ top: 35px;
+  right: 80px;
  border-radius:100px;
+ margin-left:auto;
+ margin-right:auto;
+ display: inline-block;
 }
 .github-logo:hover{
     outline-color: blue;
@@ -186,3 +199,23 @@ box-shadow: 0 0 0 4px #0c7ae0;
 
 
 }
+
+text{
+    color:rgb(255, 255, 255);
+}
+
+.img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+IMG.displayed {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    
+ }
